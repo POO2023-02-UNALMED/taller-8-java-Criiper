@@ -27,7 +27,7 @@ public class Jugador extends Futbolista {
 	}
 
 	@Override
-	public boolean jugarConLasManos() {
+	public Boolean jugarConLasManos() {
 		return false;
 	}
 	
