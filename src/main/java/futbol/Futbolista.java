@@ -54,9 +54,6 @@ public abstract class Futbolista implements Comparable<Futbolista>{
 		this.edad = edad;
 	}
 	
-	public void setPosicion(String posicion) {
-		this.posicion = posicion;
-	}
 	
 	
 	public abstract boolean jugarConLasManos();
