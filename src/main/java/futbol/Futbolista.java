@@ -34,12 +34,14 @@ public abstract class Futbolista implements Comparable<Futbolista>{
 	
 
 	
-	public String getNombre() {
-		return nombre;
-	}
+	
 	
 	public int getEdad() {
 		return edad;
+	}
+
+	public String getNombre() {
+		return nombre;
 	}
 	
 	public String getPosicion() {
