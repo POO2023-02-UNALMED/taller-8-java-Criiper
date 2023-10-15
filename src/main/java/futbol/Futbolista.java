@@ -31,7 +31,6 @@ public abstract class Futbolista implements Comparable<Futbolista>{
 			return 0;
 		}
 
-	public abstract boolean jugarConLasManos();
 	
 	
 	public String toString() {
@@ -58,5 +57,6 @@ public abstract class Futbolista implements Comparable<Futbolista>{
 		return posicion;
 	}
 	
+	public abstract boolean jugarConLasManos();
 	
 }
