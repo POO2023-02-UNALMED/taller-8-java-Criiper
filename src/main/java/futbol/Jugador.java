@@ -16,9 +16,25 @@ public class Jugador extends Futbolista {
 		this.dorsal = 7;
 	}
 	
+	public byte getDorsal() {
+		return dorsal;
+	}
+	
+	public void setDorsal(byte dorsal) {
+		this.dorsal = dorsal;
+	}
+	
+	public short getGolesMarcados() {
+		return golesMarcados;
+	}
+	
+	public void setGolesMarcados(short golesMarcados) {
+		this.golesMarcados = golesMarcados;
+	}
+		
 	public String toString() {
 		return "El futbolista " + this.getNombre() + "tiene " + this.getEdad() + ", y juega de " + this.getPosicion()
-		+ "con el dorsal " + this.dorsal + ". Ha marcado " + this.golesMarcados;
+		+ "con el dorsal " + this.getDorsal() + ". Ha marcado " + this.getGolesMarcados();
 	}
 
 	
