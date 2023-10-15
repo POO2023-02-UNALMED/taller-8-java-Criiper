@@ -31,9 +31,7 @@ public abstract class Futbolista implements Comparable<Futbolista>{
 			return 0;
 		}
 
-	
-
-	
+	}
 	
 	
 	public int getEdad() {
