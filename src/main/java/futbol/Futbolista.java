@@ -19,10 +19,6 @@ public abstract class Futbolista implements Comparable<Futbolista>{
 	public boolean equals(Futbolista f) {
 		if (this == f) {
 			return true;
-		}
-		else {
-			return false;
-		}
 	}
 	
 	@Override
