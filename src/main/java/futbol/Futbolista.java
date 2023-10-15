@@ -49,4 +49,5 @@ public abstract class Futbolista implements Comparable<Futbolista>{
 			return true;
 	}
 }
+}
 
