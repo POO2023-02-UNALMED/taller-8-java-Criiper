@@ -18,7 +18,7 @@ public abstract class Futbolista implements Comparable<Object>{
 	public abstract boolean jugarConLasManos();
 	
 	
-	public int compareTo(Futbolista f) {
+	public int compareTo(Object f) {
 		if (this == f) {
 			return 0;
 		}
